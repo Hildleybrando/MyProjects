@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto';
+}
+
+/* ------relacionados ao navbar------ */
+nav.navbar{
+    background-color: #2b96af !important;
+}
+
+#navbar img {
+    width: 100px;
+}
+
+.navbar-nav{
+    --bs-nav-link-hover-color: rgb(255 195 40) !important;
+}
+/* ------ relacionados ao footer ------ */
+footer.bd-footer{
+    background-color: #2b96af;
+    padding: 0px 12px ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* ------ seleção de texto ------ */
+
+::selection {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255 195 40);
+}
